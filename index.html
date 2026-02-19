@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - EasyFolio Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0" style="text-decoration: none;">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">THE STACK DEV</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="./index.html" class="active">Home</a></li>
+          <li><a href="./service.html">Services</a></li>
+          <li><a href="./porfolio.html">Portfolio</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <div class="header-social-links">
+        <a href="https://www.facebook.com/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h2 style="font-size: 45px;">Web & App that’s sleek, snappy, and built to scale</h2>
+            <p class="lead">From code to branding to marketing… we handle the whole stack
+            </p>
+            <!-- CTA Buttons with Modal Trigger -->
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+              <button type="button" class="btn btn-outline" data-bs-toggle="modal" data-bs-target="#contactModal" style="font-size: 20px;">
+                <i class="fa-solid fa-paper-plane" style="padding-right: 15px;font-size: 22px;"></i>Book Free Discovery Session
+              </button>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+              <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+            </div>
+          </div>
+          <!-- video section -->
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <img src="assets/img/profile/profile-1.webp" alt="Portfolio Hero Image" class="img-fluid"
+                data-aos="zoom-out" data-aos-delay="300">
+              <div class="shape-1"></div>
+              <div class="shape-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header border-0 pb-0">
+            <h5 class="modal-title fw-bold" id="contactModalLabel">Let's Connect</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-4">
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact modal -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4 skills-animation">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <h3>Web Design & Development</h3>
+              <p>We create fast, modern, conversion-focused websites built to scale - from landing pages to full custom
+                platforms.</p>
+              <span class="text-end d-block">100%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-box">
+              <h3> Mobile App Development</h3>
+              <p>iOS + Android apps designed with smooth UX, strong architecture, and clean code that grows with your
+                business.</p>
+              <span class="text-end d-block">100%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>UI/UX Design</h3>
+              <p>User-first design that feels intuitive, looks sharp, and keeps people coming back. Clean interfaces, no
+                friction.</p>
+              <span class="text-end d-block">100%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+            <div class="skill-box">
+              <h3>Branding & Creative</h3>
+              <p>Logos, color systems, full brand kits, and polished visuals that make your business instantly
+                recognizable and unforgettable.</p>
+              <span class="text-end d-block">100%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Skills Section -->
+
+
+
+    <!-- Bootstrap Carousel -->
+     <section id="logo" class="logo section light-background" style="padding-top:20px ;padding-bottom: 10px;">
+
+      
+
+
+
+   <div class="logo-slider-wrap" style="padding-bottom: 20px;">
+    <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up" style="padding-top:10px ;">
+        <h2>Our Clients</h2>
+       
+      </div>
+      <!-- End Section Title -->
+    <div class="slider-container">
+      <div class="slider-track">
+        <!-- Duplicate logos (for infinite smooth scroll) -->
+        <div class="brand-card"><img src="./assets/persil-micro.svg" class="animated delay-0"></div>
+        <div class="brand-card"><img src="./assets/4c-foods-converted.svg" class="animated delay-1"></div>
+        <div class="brand-card"><img src="./assets/5-diner.svg" class="animated delay-2"></div>
+        <div class="brand-card"><img src="./assets/shoretel.svg" class="animated delay-3"></div>
+        <div class="brand-card"><img src="./assets/mebel-market.svg" class="animated delay-4"></div>
+        <div class="brand-card"><img src="./assets/monacoin-mona.svg" class="animated delay-0"></div>
+        <div class="brand-card"><img src="./assets/55-plus.svg" class="animated delay-1"></div>
+        <div class="brand-card"><img src="./assets/25-wnye.svg" class="animated delay-2"></div>
+        <div class="brand-card"><img src="./assets/2nd-watch.svg" class="animated delay-3"></div>
+        <div class="brand-card"><img src="./assets/3cube.svg" class="animated delay-4"></div>
+
+        <!-- Duplicate again for seamless loop -->
+        <div class="brand-card"><img src="./assets/persil-micro.svg"></div>
+        <div class="brand-card"><img src="./assets/4c-foods-converted.svg"></div>
+        <div class="brand-card"><img src="./assets/5-diner.svg"></div>
+        <div class="brand-card"><img src="./assets/shoretel.svg"></div>
+        <div class="brand-card"><img src="./assets/mebel-market.svg"></div>
+        <div class="brand-card"><img src="./assets/monacoin-mona.svg"></div>
+        <div class="brand-card"><img src="./assets/55-plus.svg"></div>
+        <div class="brand-card"><img src="./assets/25-wnye.svg"></div>
+        <div class="brand-card"><img src="./assets/2nd-watch.svg"></div>
+        <div class="brand-card"><img src="./assets/3cube.svg"></div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+    <!-- end of slider -->
+
+
+    <!-- top services -->
+    <section id="services" class="services section">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Core Services We Provide</h2>
+          <div class="title-shape">
+            <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+                stroke-width="2"></path>
+            </svg>
+          </div>
+          <p>“Our services are more than just technology—they’re a partnership for growth. See how we deliver innovative
+            software, stunning designs, and robust solutions tailored for you.”</p>
+        </div>
+        <!-- End Section Title -->
+        <!-- Services Grid -->
+        <div class="row g-4">
+          <!-- Email Marketing -->
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card position-relative overflow-hidden h-100">
+              <div class="card-icon mb-4">
+                <i class="fas fa-laptop-code fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+              </div>
+              <h4 class="card-title fw-bold mb-3">Web & App Design & Development</h4>
+              <p class="card-text mb-4">
+                Custom websites and mobile apps designed to engage, convert, and scale.
+              </p>
+              <ul class="service-features mb-4">
+                <li><i class="fas fa-check me-2"></i>Responsive & intuitive UI/UX</li>
+                <li><i class="fas fa-check me-2"></i>Fast, high-performance code</li>
+                <li><i class="fas fa-check me-2"></i>SEO-friendly architecture</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Web Design/Development -->
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card position-relative overflow-hidden h-100" style="animation-delay: 0.2s">
+              <div class="card-icon mb-4">
+                <i class="fas fa-desktop fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+              </div>
+              <h4 class="card-title fw-bold mb-3">UI/UX Design</h4>
+              <p class="card-text mb-4">
+                Design that connects your users to your brand seamlessly.
+              </p>
+              <ul class="service-features mb-4">
+                <li><i class="fas fa-check me-2"></i>User flows & wireframes</li>
+                <li><i class="fas fa-check me-2"></i>Interactive prototypes</li>
+                <li><i class="fas fa-check me-2"></i>Visual & experiential design</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Graphic Design -->
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card position-relative overflow-hidden h-100" style="animation-delay: 0.4s">
+              <div class="card-icon mb-4">
+                <i class="fas fa-globe-americas fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+              </div>
+              <h4 class="card-title fw-bold mb-3">Domain & Hosting</h4>
+              <p class="card-text mb-4">
+                Hassle-free domains and secure hosting so you can focus on growing.
+              </p>
+              <ul class="service-features mb-4">
+                <li><i class="fas fa-check me-2"></i>Domain registration & management</li>
+                <li><i class="fas fa-check me-2"></i>Reliable hosting & uptime</li>
+                <li><i class="fas fa-check me-2"></i>Maintenance & support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of top services -->
+
+
+    <!-- top experties -->
+  <section id="services" class="services section">
+    <div class="container">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Expertise Across Domains</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+      </div>
+      <!-- End Section Title -->
+
+      <!-- Services Grid -->
+      <div class="row g-4">
+        <!-- Email Marketing -->
+        <div class="col-lg-4 col-md-6">
+          <div class="expertise-card position-relative overflow-hidden h-100">
+            <div class="card-icon mb-4">
+              <i class="fas fa-car fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+            </div>
+            <h4 class="card-title fw-bold mb-3">Automotive</h4>
+            <p class="card-text mb-4">
+              Implement IoT telematics and AI-driven predictive maintenance to optimize fleet management. Gain real-time
+              data for enhanced vehicle performance and reduced downtime. Improve safety and efficiency with advanced
+              analytics.
+            </p>
+          </div>
+        </div>
+
+        <!-- Web Design/Development -->
+        <div class="col-lg-4 col-md-6">
+          <div class="expertise-card position-relative overflow-hidden h-100" style="animation-delay: 0.2s">
+            <div class="card-icon mb-4">
+              <i class="fas fa-hospital fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+            </div>
+            <h4 class="card-title fw-bold mb-3">Healthcare</h4>
+            <p class="card-text mb-4">
+              Utilize HIPAA-compliant telemedicine platforms and integrated EMR/EHR systems for streamlined patient
+              care. Employ AI diagnostics for better outcomes and predictive analytics to enhance operational efficiency
+            </p>
+          </div>
+        </div>
+        <!-- Graphic Design -->
+        <div class="col-lg-4 col-md-6">
+          <div class="expertise-card position-relative overflow-hidden h-100" style="animation-delay: 0.4s">
+            <div class="card-icon mb-4">
+              <i class="fas fa-graduation-cap fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+            </div>
+            <h4 class="card-title fw-bold mb-3">Education</h4>
+            <p class="card-text mb-4">
+              Leverage VR-enabled learning platforms and AI-driven personalized paths to enhance student engagement.
+              Utilize real-time analytics for adaptive content and improved teaching strategies.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="expertise-card position-relative overflow-hidden h-100" style="animation-delay: 0.4s">
+            <div class="card-icon mb-4">
+              <i class="fas fa-bolt fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+            </div>
+            <h4 class="card-title fw-bold mb-3">On-Demand</h4>
+            <p class="card-text mb-4">
+              Adopt scalable cloud architectures with real-time GPS tracking and AI-driven demand forecasting. Ensure
+              rapid, reliable service delivery and seamless user experiences. Scale effortlessly with fluctuating
+              demands.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="expertise-card position-relative overflow-hidden h-100" style="animation-delay: 0.4s">
+            <div class="card-icon mb-4">
+              <i class="fas fa-credit-card fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+            </div>
+            <h4 class="card-title fw-bold mb-3">Fintech</h4>
+            <p class="card-text mb-4">
+              Implement blockchain smart contracts, AI-driven fraud detection, and real-time payment processing for
+              secure transactions. Use data analytics for personalized financial solutions and enhanced security.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="expertise-card position-relative overflow-hidden h-100" style="animation-delay: 0.4s">
+            <div class="card-icon mb-4">
+              <i class="fas fa-truck fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+            </div>
+            <h4 class="card-title fw-bold mb-3">Logistics</h4>
+            <p class="card-text mb-4">
+              Optimize operations with AI-driven route planning, IoT tracking, and advanced supply chain analytics.
+              Improve delivery times, reduce costs, and gain real-time visibility and predictive insights.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="expertise-card position-relative overflow-hidden h-100" style="animation-delay: 0.4s">
+            <div class="card-icon mb-4">
+              <i class="fas fa-shopping-bag fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+            </div>
+            <h4 class="card-title fw-bold mb-3">Retail</h4>
+            <p class="card-text mb-4">
+              Integrate AI-powered inventory management and personalized recommendations with omnichannel sales. Drive
+              customer loyalty, optimize stock levels, and increase sales through data-driven insights.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="expertise-card position-relative overflow-hidden h-100" style="animation-delay: 0.4s">
+            <div class="card-icon mb-4">
+              <i class="fas fa-store fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+            </div>
+            <h4 class="card-title fw-bold mb-3">E-Commerce</h4>
+            <p class="card-text mb-4">
+              Enhance platforms with scalable cloud infrastructure, secure payment gateways, and AI-driven customer
+              behavior analytics. Boost conversions, improve user experience, and drive sustained growth.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="expertise-card position-relative overflow-hidden h-100" style="animation-delay: 0.4s">
+            <div class="card-icon mb-4">
+              <i class="fas fa-home fa-3x accent-icon p-4 rounded-circle shadow-lg"></i>
+            </div>
+            <h4 class="card-title fw-bold mb-3">Real Estate</h4>
+            <p class="card-text mb-4">
+              Modernize with VR property tours, AI-driven valuations, and blockchain smart contracts. Streamline
+              transactions, enhance property visibility, and provide data-driven insights for better decisions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of top expertise -->
+
+
+  <!-- thoughtful process -->
+<section class="py-5">
+  <div class="container">
+
+    <div class="container section-title" data-aos="fade-up">
+          <h2>A thoughtful process</h2>
+          <div class="title-shape">
+            <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+                stroke-width="2"></path>
+            </svg>
+          </div>
+          <p>“Our strategy is simplicity. Yes, start lean and launch fast, but don't skip steps.”</p>
+        </div>
+
+    <!-- Steps -->
+    <div class="row mt-5 text-start justify-content-between">
+
+      <!-- DISCOVER -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="d-flex">
+          <i class="fa-solid fa-map fa-2x me-3 text-dark"></i>
+          <div>
+            <h5 class="fw-semibold mb-2">Discover</h5>
+            <p class="text-muted mb-0 small">
+              First we listen and 'strip down' your idea to reveal the core of your app's value proposition.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESIGN -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="d-flex">
+          <i class="fa-solid fa-image fa-2x me-3 text-dark"></i>
+          <div>
+            <h5 class="fw-semibold mb-2">Design</h5>
+            <p class="text-muted mb-0 small">
+              We create a lean, impactful go-to-market product strategy that de-risks your investment.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DEVELOP -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="d-flex">
+          <i class="fa-solid fa-code fa-2x me-3 text-dark"></i>
+          <div>
+            <h5 class="fw-semibold mb-2">Develop</h5>
+            <p class="text-muted mb-0 small">
+              Our development team works hand-in-hand with our creative team to build with precision.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DEPLOY -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="d-flex">
+          <i class="fa-solid fa-rocket fa-2x me-3 text-dark"></i>
+          <div>
+            <h5 class="fw-semibold mb-2">Deploy</h5>
+            <p class="text-muted mb-0 small">
+              Real artists ship. We partner with you to launch and iterate to find true product-market fit.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- end of thoughtful process -->
+
+    <!-- Top Projects -->
+    <section id="services" class="services section">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Proven Success Stories</h2>
+          <div class="title-shape">
+            <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+              <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+                stroke-width="2"></path>
+            </svg>
+          </div>
+          <p>“Our top services represent the best of what we do. Innovative, reliable, and tailored to your business
+            needs, they turn challenges into opportunities.”</p>
+        </div>
+        <!-- End Section Title -->
+        <!-- Projects Grid -->
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card h-100">
+              <div class="project-image-wrapper">
+                <img src="assets/img/projects/project-1.jpg" alt="Project 1" class="img-fluid project-image">
+                <div class="project-tag">Web Design</div>
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">SaaS Dashboard Redesign</h4>
+                <p class="project-text">
+                  A clean and modern dashboard experience that improved usability and increased engagement.
+                </p>
+                <div class="project-meta">
+                  <span><i class="fas fa-clock me-2"></i>3 Months</span>
+                  <!-- <span><i class="fas fa-chart-line ms-3 me-2"></i>+42% Conversions</span> -->
+                </div>
+                <!-- <a href="#" class="project-link">
+                  View Case Study <i class="fas fa-arrow-right ms-2"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card h-100" style="animation-delay: .2s">
+              <div class="project-image-wrapper">
+                <img src="assets/img/projects/project-2.jpg" alt="Project 2" class="img-fluid project-image">
+                <div class="project-tag">Email Marketing</div>
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">E‑commerce Email Automation</h4>
+                <p class="project-text">
+                  High-performing automation flows that nurtured customers and boosted repeat purchases.
+                </p>
+                <div class="project-meta">
+                  <span><i class="fas fa-clock me-2"></i>6 Weeks</span>
+                  <!-- <span><i class="fas fa-chart-line ms-3 me-2"></i>+65% ROI</span> -->
+                </div>
+                <!-- <a href="#" class="project-link">
+                  View Case Study <i class="fas fa-arrow-right ms-2"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card h-100" style="animation-delay: .4s">
+              <div class="project-image-wrapper">
+                <img src="assets/img/projects/project-3.jpg" alt="Project 3" class="img-fluid project-image">
+                <div class="project-tag">Graphic Design</div>
+              </div>
+              <div class="project-content">
+                <h4 class="project-title">Brand Identity Refresh</h4>
+                <p class="project-text">
+                  A complete rebrand with a bold visual language across digital and print touchpoints.
+                </p>
+                <div class="project-meta">
+                  <span><i class="fas fa-clock me-2"></i>2 Months</span>
+                  <!-- <span><i class="fas fa-chart-line ms-3 me-2"></i>+30% Brand Recall</span> -->
+                </div>
+                <!-- <a href="#" class="project-link">
+                  View Case Study <i class="fas fa-arrow-right ms-2"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of top projects -->
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel
+          illum qui dolorem</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="testimonials-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "slidesPerView": 1,
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Sed ut perspiciatis unde omnis</h2>
+                    <p>
+                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                      Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    </p>
+                    <p>
+                      Beatae magnam dolore quia ipsum. Voluptatem totam et qui dolore dignissimos. Amet quia sapiente
+                      laudantium nihil illo et assumenda sit cupiditate. Nam perspiciatis perferendis minus consequatur.
+                      Enim ut eos quo.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-m-7.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Saul Goodman</h3>
+                        <span>Client</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-m-7.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Nemo enim ipsam voluptatem</h2>
+                    <p>
+                      Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
+                      malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    </p>
+                    <p>
+                      Dolorem excepturi esse qui amet maxime quibusdam aut repellendus voluptatum. Corrupti enim a
+                      repellat cumque est laborum fuga consequuntur. Dolorem nostrum deleniti quas voluptatem iure
+                      dolorum rerum. Repudiandae doloribus ut repellat harum vero aut. Modi aut velit aperiam aspernatur
+                      odit ut vitae.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-f-8.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Sara Wilsson</h3>
+                        <span>Designer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-f-8.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>
+                      Labore nostrum eos impedit
+                    </h2>
+                    <p>
+                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                      minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    </p>
+                    <p>
+                      Itaque ut explicabo vero occaecati est quam rerum sed. Numquam tempora aut aut quaerat quia illum.
+                      Nobis quia autem odit ipsam numquam. Doloribus sit sint corporis eius totam fuga. Hic nostrum
+                      suscipit corrupti nam expedita adipisci aut optio.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-m-9.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Matt Brandon</h3>
+                        <span>Freelancer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-m-9.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h2>Impedit dolor facilis nulla</h2>
+                    <p>
+                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                      tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    </p>
+                    <p>
+                      Omnis aspernatur accusantium qui delectus praesentium repellendus. Facilis sint odio aspernatur
+                      voluptas commodi qui qui qui pariatur. Corrupti deleniti itaque quaerat ipsum deleniti culpa
+                      tempora tempore. Et consequatur exercitationem hic aspernatur nobis est voluptatibus architecto
+                      laborum.
+                    </p>
+                    <div class="profile d-flex align-items-center">
+                      <img src="assets/img/person/person-f-10.webp" class="profile-img" alt="">
+                      <div class="profile-info">
+                        <h3>Jena Karlis</h3>
+                        <span>Store Owner</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block">
+                    <div class="featured-img-wrapper">
+                      <img src="assets/img/person/person-f-10.webp" class="featured-img" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Testimonial Item -->
+
+          </div>
+
+          <div class="swiper-navigation w-100 d-flex align-items-center justify-content-center">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor"
+              stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>Have questions? We’ve got answers.
+          Explore our FAQ section to discover how we turn ideas into powerful digital solutions. From project timelines
+          to technologies, we’ve covered everything you need to know before getting started. And if you don’t find what
+          you’re looking for—our team is just a message away, ready to help you every step of the way.</p>
+      </div>
+      <!-- End Section Title -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3>What services does your software house provide?</h3>
+                <div class="faq-content">
+                  <p>We offer a full range of digital solutions including custom software development, mobile app
+                    development, web development, UI/UX design, cloud solutions, and ongoing maintenance..</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+              <div class="faq-item">
+                <h3>How do I start a project with you?</h3>
+                <div class="faq-content">
+                  <p>Simply contact us through our website or email. We’ll schedule a consultation to understand your
+                    requirements, provide a proposed plan, and begin with a formal agreement once the scope is
+                    finalized.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+              <div class="faq-item">
+                <h3>How much does a custom software project cost?</h3>
+                <div class="faq-content">
+                  <p>The cost depends on the project’s complexity, features, design requirements, and timeline. After
+                    understanding your needs, we provide a detailed quote with a clear breakdown.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+              <div class="faq-item">
+                <h3>Will I be involved during the development process?</h3>
+                <div class="faq-content">
+                  <p>Yes! We keep you updated throughout each phase. You’ll have regular progress reviews, demos, and
+                    the ability to provide feedback to ensure the final product meets your expectations.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+              <div class="faq-item">
+                <h3>Is my data and project information secure?</h3>
+                <div class="faq-content">
+                  <p>Security is our priority. We follow best industry practices, sign NDAs when needed, and ensure all
+                    data is handled with strict confidentiality.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+              <div class="faq-item">
+                <h3>What happens if I need new features after the project is completed?</h3>
+                <div class="faq-content">
+                  <p>We offer additional feature development and enhancements anytime you need them. Just contact us,
+                    and we’ll extend the project scope.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div>
+              <!-- End Faq item-->
+            </div>
+          </div>
+          <!-- End Faq Column-->
+        </div>
+      </div>
+    </section>
+    <!-- /Faq Section -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-modern position-relative overflow-hidden">
+    <!-- Animated Background -->
+    <div class="footer-bg-animation"></div>
+    <div class="container py-5">
+      <div class="row g-4">
+        <!-- Brand Section -->
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+            <div class="brand-logo mb-3">
+              <i class="fas fa-rocket fa-2x text-primary mb-2"></i>
+              <h4 class="brand-name fw-bold">THE STACK DEV</h4>
+            </div>
+            <p class="text-light opacity-75 mb-3">
+              Building innovative digital experiences with cutting-edge technology.
+            </p>
+            <div class="social-links">
+              <a href="#"
+                class="btn-social btn-primary me-2 animate__animated animate__pulse animate__infinite animate__slower"><i
+                  class="fab fa-facebook-f"></i></a>
+              <a href="#" class="btn-social btn-info me-2"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="btn-social btn-danger"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Quick Links -->
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-widget animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+            <h6 class="widget-title text-white mb-4">Quick Links</h6>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="./index.html" class="text-light text-decoration-none hover-link">Home</a></li>
+              <li class="mb-2"><a href="./about.html" class="text-light text-decoration-none hover-link">About</a></li>
+              <li class="mb-2"><a href="./service.html" class="text-light text-decoration-none hover-link">Services</a>
+              </li>
+              <li class="mb-2"><a href="./porfolio.html"
+                  class="text-light text-decoration-none hover-link">Portfolio</a></li>
+              <li class="mb-2"><a href="./contact.html" class="text-light text-decoration-none hover-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Services -->
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-widget animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+            <h6 class="widget-title text-white mb-4">Services</h6>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" class="text-light text-decoration-none hover-link"><i
+                    class="fas fa-code me-2"></i>Web Development</a></li>
+              <li class="mb-2"><a href="#" class="text-light text-decoration-none hover-link"><i
+                    class="fas fa-paint-brush me-2"></i>UI/UX Design</a></li>
+              <li class="mb-2"><a href="#" class="text-light text-decoration-none hover-link"><i
+                    class="fas fa-search me-2"></i>SEO</a></li>
+              <li class="mb-2"><a href="#" class="text-light text-decoration-none hover-link"><i
+                    class="fas fa-mobile-alt me-2"></i>Mobile Apps</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Newsletter & Feedback -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-widget animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+            <h6 class="widget-title text-white mb-4">Stay Connected</h6>
+            <!-- Newsletter Form -->
+            <form id="newsletterForm" class="newsletter-form mb-4">
+              <div class="input-group input-group-lg glass-effect">
+                <input type="email" class="form-control border-0" placeholder="Enter your email" required>
+                <button class="btn btn-primary px-4" type="submit">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+              <div id="newsletterMsg" class="msg-text small mt-2"></div>
+            </form>
+            <!-- Quick Stats -->
+            <div class="stats-row">
+              <div class="stat-item">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Projects</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">Satisfaction</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <hr class="border-light opacity-25 my-5">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-light mb-0 opacity-75">
+            © 2025 YourBrand. All rights reserved.
+            <a href="#" class="text-primary text-decoration-none">Privacy Policy</a>
+          </p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="text-light me-3 hover-link">Terms</a>
+          <a href="#" class="text-light hover-link">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script>
+    // Initialize WOW animations
+    new WOW().init();
+
+    // Newsletter form handler
+    document.getElementById('newsletterForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const msg = document.getElementById('newsletterMsg');
+      msg.textContent = '✓ Thank you for subscribing!';
+      msg.className = 'msg-text small mt-2 text-success animate__animated animate__bounceIn';
+      this.reset();
+    });
+  </script>
+
+
+  <script>
+    // Optional: ensure carousel loops smoothly when user manually navigates
+    const carouselEl = document.getElementById('logoCarousel');
+    const bsCarousel = new bootstrap.Carousel(carouselEl, { interval: 2200, pause: 'hover', ride: 'carousel', wrap: true });
+
+    // Small accessibility tweak: add keyboard left/right
+    carouselEl.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') bootstrap.Carousel.getInstance(carouselEl).prev();
+      if (e.key === 'ArrowRight') bootstrap.Carousel.getInstance(carouselEl).next();
+    });
+  </script>
+
+</body>
+
+</html>
